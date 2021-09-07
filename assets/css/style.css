@@ -15,6 +15,7 @@ font-family: 'Playfair Display', serif; */
 :root {
     --main-tx-color: white;
     --main-font-head: 'Chewy', cursive;
+    --second-font: 'Playfair Display', serif;
 }
 
 /* Back ground image for mobile first and to be responsive */
@@ -47,5 +48,30 @@ html {
         grid-gap: 5px;
         grid-template-columns: auto auto auto auto;
         margin-top: 3rem;
+        width: 100vw;
+        margin: 50px auto;
+    }
+
+    .card-back {
+        border-radius: 10px;
+    }
+
+    .game-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .timer,
+    .moves {
+        padding: 0.5rem;
+        background-color: rgba(41, 188, 207, 0.712);
+        border-radius: 10px;
+        margin: 0.8rem;
+        color: var(--main-tx-color);
+        font-family: var(--second-font);
+        font-weight: 600;
+        letter-spacing: 2px;
     }
 }
