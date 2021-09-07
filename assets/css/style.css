@@ -15,6 +15,14 @@ font-family: 'Playfair Display', serif; */
     --main-tx-color:white;
     --main-font-head:'Chewy', cursive;
 }
+/* From here at bottom of CSS File
+   we have our media queries using min-width
+   only */
+   @media (min-width: 576px) {
+    /* all our media queries that we want to take affect
+	   from 576px and up go here and this is normally for screens of
+	   small to medium sizes */
+}
 /* Back ground image for mobile first and to be responsive */
 html { 
     background: url(../images/earth.jpg) no-repeat center center fixed; 
