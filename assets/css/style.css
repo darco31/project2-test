@@ -1,3 +1,8 @@
+/* import font styles */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Playfair+Display&display=swap');
+/* fonts */
+font-family: 'Chewy', cursive;
+font-family: 'Playfair Display', serif;
 /* Global resets */
 * {
     padding: 0;
@@ -7,7 +12,8 @@
 
 /* Global Style Variables */
 :root {
-    --main-tx-color: 
+    --main-tx-color:white;
+    --main-font-head:'Chewy', cursive;
 }
 /* Back ground image for mobile first and to be responsive */
 html { 
@@ -17,3 +23,13 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  
+
+.top--heading {
+    font-size: 2.5rem;
+    font-family: var(--main-font-head);
+    color: var(--main-tx-color);
+    letter-spacing: 3px;
+    text-align: center;
+}
