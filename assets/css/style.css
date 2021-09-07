@@ -1,8 +1,8 @@
 /* import font styles */
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Playfair+Display&display=swap');
 /* fonts */
-font-family: 'Chewy', cursive;
-font-family: 'Playfair Display', serif;
+/* font-family: 'Chewy', cursive;
+font-family: 'Playfair Display', serif; */
 /* Global resets */
 * {
     padding: 0;
@@ -23,8 +23,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-
-  
 
 .top--heading {
     font-size: 2.5rem;
